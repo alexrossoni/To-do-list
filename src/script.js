@@ -92,7 +92,7 @@ const refreshScreenWithLStorage = () => {
         taskItemContainer.addEventListener('click', () => completeTask(taskContentText));
 
         const taskDeleteButton = document.createElement('img');
-        taskDeleteButton.setAttribute('src', '/assets/icons/circle-minus.svg');
+        taskDeleteButton.setAttribute('src', '../assets/icons/circle-minus.svg');
 
         taskDeleteButton.addEventListener('click', () => deleteTask(taskItemContainer, taskContentText));
 
