@@ -9,6 +9,7 @@ body{
     background: linear-gradient(#a2c8db, #7eb9d6);
     font-family: Verdana, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -20,6 +21,7 @@ body{
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
+    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .app-title{
@@ -66,6 +68,7 @@ body{
     font-size: 1.5rem;
     color: #FFF;
     text-align: center;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 #new-task-input::placeholder {
@@ -78,6 +81,7 @@ body{
     background-color: #FFF;
     border-radius: 2rem;
     cursor: pointer;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .tasks-container{
@@ -98,6 +102,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .task-item p{
@@ -116,5 +121,11 @@ body{
 }
 
 .completed{
-    background-color: greenyellow;
+    background-color: rgb(221, 255, 170);
+    text-decoration: line-through;
+}
+
+.poweredByAlex{
+    font-weight: bold;
+    opacity: 0.4;
 }
